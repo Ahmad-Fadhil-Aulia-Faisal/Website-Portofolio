@@ -61,7 +61,6 @@ a {
 .main-container {
   width: 1200px;
   margin: 0 auto;
-  
 }
 
 @media screen and (max-width: 1200px) {
@@ -119,7 +118,6 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 2rem 0;
-  
 }
 
 nav ul {
@@ -190,7 +188,6 @@ nav ul li a {
   object-position: center -28px;
 }
 
-
 .hero-right {
   display: flex;
   justify-content: center;
@@ -218,7 +215,6 @@ nav ul li a {
   text-align: center;
   background: var(--primaryBackgroundColor);
   border-radius: var(--itemBorderRadius);
-
 }
 
 .service h4 {
@@ -292,9 +288,8 @@ nav ul li a {
 }
 
 .portfolio p {
-    text-align: justify;
-  }
-
+  text-align: justify;
+}
 
 .portfolio-title a svg:hover {
   fill: var(--primaryIconColor);
@@ -383,7 +378,6 @@ nav ul li a {
 
 .skills-right p {
   text-align: justify;
-
 }
 
 #contact {
@@ -481,4 +475,8 @@ footer {
 
 .footer-icons a:hover svg {
   fill: #000;
+}
+
+.skills-right {
+  text-indent: 30px;
 }
